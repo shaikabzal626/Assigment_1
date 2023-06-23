@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+}
+* {
+  padding: 0px;
+}
+.Navbar {
+  display: flex;
+  height: 8vh;
+  background-color: black;
+  color: white;
+}
+ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+li {
+  list-style: none;
+  width: 3.5rem;
+}
+
+#li1 {
+  display: flex;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 8vh;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #04aa6d;
+}
+#li4 {
+  margin-left: 300%;
+}
